@@ -1,9 +1,6 @@
-
 header {
     background-color: #bbbbbb;
     padding: 20px 0;
-    margin-bottom: 20px;
-    
 }
 
 .cajaNavegacion {
@@ -16,7 +13,6 @@ nav {
     position: absolute;
     top: 110px;
     right: 0px;
-    
 }
 
 nav li {
@@ -29,7 +25,7 @@ nav a {
     color: black;
     font-weight: bold;
     font-size: 22px;
-    text-decoration: none;  
+    text-decoration: none;
 }
 
 nav a:hover {
@@ -37,53 +33,56 @@ nav a:hover {
     text-decoration: underline;
 }
 
-#banner {
-    width: 100%;   
+.productos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
 }
 
-.principal{
-    background: #CCCCCC;
-    padding: 20px;
-}
-
-.tituloCentralizado{
-    text-align: center;
-}
-
-p{
-    text-align: center;
-}
-
-#textoMision {
-    font-size: 20px;
-}
-
-em  strong{
-    color: red;
-}
-
-.diferenciales{
-    background: #ffffff;
-    padding: 30px;   
-}
-
-
-.items{
-    font-style: italic;
-}
-
-.listaDiferenciales{
+.productos li {
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-left: 15%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: black;
+    border: 2px solid black;
+    border-top-width: 10px;
+    border-radius: 20px;
+    transition: 1s all;
+}
+
+.productos li:hover {
+    border-color: #c71f19;
+    transform: scale(1.2);
     
 }
 
-.imgDiferenciales{
-    width: 50%;
+.productos li:active {
+    border-color: #2c2020;
+    transition: 0s;
 }
 
+.productos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos li:hover h2 {
+    font-size: 33px;
+}
+
+.producto-descripcion {
+    font-size: 18px;
+}
+
+.producto-precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
 
 footer {
     text-align: center;
@@ -96,3 +95,88 @@ footer {
     font-size: 13px;
     margin: 20px;
 }
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 20px;
+    border-top-width: 5px;
+    transition: 1s all;
+}
+
+.input-padron:hover {
+    background: #e2d1d1;
+    border-color: #c71f19;
+}
+
+.input-padron:focus {
+    background: #e2d1d1;
+    border: 1px solid black;
+    border-top-width: 5px;
+}
+
+fieldset select {
+    border-radius: 20px;
+    font-size: 17px;
+    width: 15%;
+    text-align: center;
+}
+
+.checkbox {
+    margin: 30px 0;
+}
+
+.enviarFormulario {
+    width: 40%;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background: none;
+    border: 2px solid black;
+    border-radius: 20px;
+    border-top-width: 10px;
+    border-color: black;
+    transition: 2s all;
+    cursor: pointer;
+}
+
+.enviarFormulario:hover {
+    background: #e2d1d1;
+    border-color: #c71f19;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 40px 40px 40px 90px;
+}
+
+thead {
+    background: #bbbbbb;
+    font-weight: bold;
+    color: black;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 20px;
+}
+

@@ -1,0 +1,152 @@
+header {
+    background-color: #bbbbbb;
+    padding: 20px 0;
+}
+
+.cajaNavegacion {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px; 
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #c71f19;
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 20px;
+}
+
+#banner {
+    width: 50%;
+    margin-left: 150px;
+    margin-top: 20px;
+    border-radius: 50px;
+       
+}
+
+.principal{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 20px 2% 0 2%;
+    padding: 20px 5px 10px 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-top-width: 10px;
+    border-radius: 20px;
+    transition: 1s all;
+}
+
+.principal:hover {
+    border-color: #c71f19;
+    transform: scale(1.1);
+}
+
+.principal:active {
+    border-color: #2c2020;
+    transition: 0s;
+}
+
+.tituloCentralizado{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.principal p {
+    text-align: justify;
+    font-size: 19px;
+    padding: 10px;
+}
+
+#textoMision {
+    font-size: 19px;
+}
+
+em  strong{
+    color: #c71f19;
+}
+
+.tituloCentralizado2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.diferenciales {
+    font-size: 19px;
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+    vertical-align: top;
+    margin: 7.5% 2% 0 20%;
+    padding: 20px 5px 20px 5px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-top-width: 10px;
+    border-radius: 20px;
+    transition: 1s all;
+     
+}
+
+.diferenciales:hover {
+    border-color: #c71f19;
+    transform: scale(1.1);
+}
+
+.diferenciales:active {
+    border-color: #2c2020;
+    transition: 0s;
+}
+
+.listaDiferenciales{
+    font-size: 19px;
+    padding: 10px 0;
+}
+
+.items {
+    padding: 5px;
+}
+
+.imgDiferenciales{
+    width: 35%;
+    margin: 2% auto;
+    border-radius: 50px;
+}
+
+footer {
+    text-align: center;
+    background: url(img/bg.jpg);
+    padding: 40px;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+    text-align: center;
+}
