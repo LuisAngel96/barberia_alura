@@ -1,3 +1,7 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
 header {
     background-color: #bbbbbb;
     padding: 20px 0;
@@ -96,13 +100,10 @@ footer {
     margin: 20px;
 }
 
-main {
+form {
     width: 940px;
     margin: 0 auto;
-}
-
-form {
-    margin: 40px 0;
+    margin-top: 20px;
 }
 
 form label, form legend {
@@ -166,7 +167,8 @@ fieldset select {
 }
 
 table {
-    margin: 40px 40px 40px 90px;
+    margin: 30px 40px 40px 550px;
+    
 }
 
 thead {
@@ -180,3 +182,125 @@ td, th {
     padding: 8px 20px;
 }
 
+/*CSS PARA PAGINA PRINCIPAL(HOME)*/
+
+.banner {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.principal {
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.tituloPrincipal {
+    text-align: center;
+    font-size: 2em;
+    margin: 1em 0 1em;
+    clear: left;
+    text-shadow: 3px 3px 10px red ;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+    color: #c71f19;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 140px;
+    float: left;
+    margin: 10px 20px;
+    border-radius: 20px;
+}
+
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa p {
+    text-align: center;
+    margin: 0 0 1em;
+}
+
+.mapa-contenido {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.diferenciales {
+    padding: 3em 0;
+    background: #888888;
+}
+
+.contenido-diferenciales {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-diferenciales {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 30px 0;
+} 
+
+.items {
+    line-height: 1.5;
+}
+
+.items:before{
+    content: "★";
+    color: #c71f19;
+}
+
+.items:first-child {
+    font-weight: bold;
+}
+
+.img-diferenciales {
+    width: 60%;
+    transition: 500ms;
+    box-shadow: 10px 10px 30px 10px black;
+    border-radius: 50px;
+}
+
+.img-diferenciales:hover{
+    opacity: 0.7;
+    scale: 1.05;
+}
+
+.video {
+    width: 50%;
+    margin: 5em auto 2em auto;
+}
+
+@media screen and (max-width:480px){
+   
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+   .cajaNavegacion, .principal, .mapa-contenido, .contenido-diferenciales, .video{
+    width: auto;
+   }
+    
+   .lista-diferenciales, .img-diferenciales{
+    width: 100%;
+   }
+
+}

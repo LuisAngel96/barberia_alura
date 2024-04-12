@@ -1,6 +1,7 @@
 header {
     background-color: #bbbbbb;
     padding: 20px 0;
+    margin-bottom: 20px;  
 }
 
 .cajaNavegacion {
@@ -12,7 +13,8 @@ header {
 nav {
     position: absolute;
     top: 110px;
-    right: 0px; 
+    right: 0px;
+    
 }
 
 nav li {
@@ -25,7 +27,7 @@ nav a {
     color: black;
     font-weight: bold;
     font-size: 22px;
-    text-decoration: none;
+    text-decoration: none;  
 }
 
 nav a:hover {
@@ -33,110 +35,53 @@ nav a:hover {
     text-decoration: underline;
 }
 
-main {
-    margin-top: 20px;
-}
-
 #banner {
-    width: 50%;
-    margin-left: 150px;
-    margin-top: 20px;
-    border-radius: 50px;
-       
+    width: 100%;   
 }
 
 .principal{
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 20px 2% 0 2%;
-    padding: 20px 5px 10px 10px;
-    box-sizing: border-box;
-    border: 2px solid black;
-    border-top-width: 10px;
-    border-radius: 20px;
-    transition: 1s all;
-}
-
-.principal:hover {
-    border-color: #c71f19;
-    transform: scale(1.1);
-}
-
-.principal:active {
-    border-color: #2c2020;
-    transition: 0s;
+    background: #CCCCCC;
+    padding: 20px;
 }
 
 .tituloCentralizado{
     text-align: center;
-    font-size: 22px;
-    font-weight: bold;
-    padding-bottom: 10px;
 }
 
-.principal p {
-    text-align: justify;
-    font-size: 19px;
-    padding: 10px;
+p{
+    text-align: center;
 }
 
 #textoMision {
-    font-size: 19px;
+    font-size: 20px;
 }
 
 em  strong{
-    color: #c71f19;
+    color: red;
 }
 
-.tituloCentralizado2 {
-    text-align: center;
-    font-size: 22px;
-    font-weight: bold;
-    padding-bottom: 10px;
+.diferenciales{
+    background: #ffffff;
+    padding: 30px;   
 }
 
-.diferenciales {
-    font-size: 19px;
-    display: inline-block;
-    text-align: center;
-    width: 25%;
-    vertical-align: top;
-    margin: 7.5% 2% 0 20%;
-    padding: 20px 5px 20px 5px;
-    box-sizing: border-box;
-    border: 2px solid black;
-    border-top-width: 10px;
-    border-radius: 20px;
-    transition: 1s all;
-     
-}
 
-.diferenciales:hover {
-    border-color: #c71f19;
-    transform: scale(1.1);
-}
-
-.diferenciales:active {
-    border-color: #2c2020;
-    transition: 0s;
+.items{
+    font-style: italic;
 }
 
 .listaDiferenciales{
-    font-size: 19px;
-    padding: 10px 0;
-}
-
-.items {
-    padding: 5px;
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-left: 15%;
+    
 }
 
 .imgDiferenciales{
-    width: 35%;
-    margin: 2% auto;
-    border-radius: 50px;
+    width: 50%;
 }
+
 
 footer {
     text-align: center;
@@ -148,5 +93,4 @@ footer {
     color: white;
     font-size: 13px;
     margin: 20px;
-    text-align: center;
 }
